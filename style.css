@@ -1,0 +1,173 @@
+/* GENERAL PAGE SETTINGS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5EBDD;
+    font-family: Arial, sans-serif;
+    color: #252525;
+    line-height: 1.8;
+    padding: 30px 15px;
+}
+
+/* MAIN CONTAINER */
+
+.main-container {
+    max-width: 950px;
+    margin: auto;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+    border: 1px solid #DDCEB9;
+}
+
+/* HEADER */
+
+.header {
+    background-color: #252525;
+    color: #F5EBDD;
+    text-align: center;
+    padding: 45px 20px;
+    border-bottom: 6px solid #C49A45;
+}
+
+.university {
+    color: #C49A45;
+    letter-spacing: 4px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.header h1 {
+    font-size: 32px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #E5D6BD;
+    font-size: 15px;
+    font-style: italic;
+}
+
+/* STUDENT INFORMATION */
+
+.student-details {
+    background-color: #F5EBDD;
+    margin: 25px;
+    padding: 25px;
+    border-left: 6px solid #A94F35;
+    border-radius: 8px;
+}
+
+.student-details h2 {
+    color: #49634B;
+    font-size: 19px;
+    margin-bottom: 12px;
+}
+
+.student-details p {
+    color: red;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* MAIN CONTENT */
+
+.content {
+    padding: 30px 35px;
+    background-color: #FFFFFF;
+}
+
+.content h2 {
+    color: #49634B;
+    font-size: 24px;
+    margin-bottom: 18px;
+    border-bottom: 2px solid #C49A45;
+    padding-bottom: 8px;
+}
+
+.content p {
+    margin-bottom: 18px;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 2;
+}
+
+/* FORMATTING DEMONSTRATION */
+
+.formatting {
+    margin: 25px;
+    padding: 30px;
+    background-color: #F5EBDD;
+    border-radius: 10px;
+    border-top: 5px solid #C49A45;
+}
+
+.formatting h2 {
+    color: #A94F35;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.formatting p {
+    margin-bottom: 12px;
+    padding: 8px 12px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #252525;
+    color: #F5EBDD;
+    text-align: center;
+    padding: 25px;
+    border-top: 5px solid #C49A45;
+    font-size: 14px;
+}
+
+.footer-note {
+    color: #C49A45;
+    font-style: italic;
+    margin-top: 8px;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media screen and (max-width: 600px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .header {
+        padding: 30px 12px;
+    }
+
+    .header h1 {
+        font-size: 23px;
+    }
+
+    .content {
+        padding: 20px;
+    }
+
+    .student-details {
+        margin: 15px;
+    }
+
+    .formatting {
+        margin: 15px;
+        padding: 18px;
+    }
+
+}
